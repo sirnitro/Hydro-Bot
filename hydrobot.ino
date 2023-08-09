@@ -65,7 +65,7 @@ void loop() {
    Serial.print(tdsValue,0);
    Serial.print("**");
 /*Dweet*/
-      String posturl = "/usr/bin/curl -k \"https://dweet.io:443/dweet/for/Wilson-Hydro-Bot?water_level=";
+      String posturl = "/usr/bin/curl -k \"https://dweet.io:443/dweet/for/CHANGEME?water_level=";
       posturl.concat(waterLVL);
       posturl.concat("&Temp=");
       posturl.concat(tempF);
