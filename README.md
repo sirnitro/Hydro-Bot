@@ -1,4 +1,4 @@
-# Hydro-Bot
+# Hydro Guardian
 
 Run grabData.php from cron on whatever interval you want to use to upload fresh data.
 
